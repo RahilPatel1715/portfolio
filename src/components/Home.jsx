@@ -16,7 +16,7 @@ const Home = () => {
           </h2>
           <p className="py-4 text-gray-500 max-w-md">
             Hello! I'm Rahil Patel, a passionate front-end developer with over
-            four years of hands-on experience crafting delightful and responsive
+            six years of hands-on experience crafting delightful and responsive
             user interfaces. My journey in the world of web development has been
             driven by a deep curiosity for creating seamless digital
             experiences.I am excited about the opportunity to bring my expertise

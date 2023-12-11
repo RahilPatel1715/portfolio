@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -37,13 +38,25 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+            className="px-4 my-auto cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}
             </Link>
           </li>
         ))}
+        <li>
+          <a
+            href="/Rahil_Patel_Resume.pdf"
+            className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r ml-4 from-cyan-500 to-blue-500 cursor-pointer group"
+            target="_blank"
+          >
+            Resume
+            <span className="group-hover:rotate-90 duration-300">
+              <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+            </span>
+          </a>
+        </li>
       </ul>
 
       <div
@@ -70,6 +83,19 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
+          <li>
+            <a
+              href="/Rahil_Patel_Resume.pdf"
+              target="_blank"
+              className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer group"
+              onClick={() => setNav(!nav)}
+            >
+              Resume
+              <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              </span>
+            </a>
+          </li>
         </ul>
       )}
     </div>

@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10">
-          In the past four years, I've cultivated expertise as Front-end
+          In the past six years, I've cultivated expertise as Front-end
           Developer through diverse projects, prioritizing the creation of
           intuitive interfaces that meet client goals and enhance user
           experiences. I'm dedicated to ensuring websites and applications are

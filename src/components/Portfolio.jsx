@@ -30,12 +30,20 @@ const Portfolio = () => {
                 alt=""
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  href="https://app-one.rahilpatel.net/"
+                  target="_blank"
+                >
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+                <a
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  href="https://github.com/RahilPatel1715/ui_ux_design"
+                  target="_blank"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
